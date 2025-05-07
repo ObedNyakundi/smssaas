@@ -50,4 +50,32 @@ This application structure and features was conceptualized after the huge feedba
 
 ## Relationships
 
+- a school has many academic years.
+- an academic year belongs to a school.
+- an academic year has many terms / sessions.
+- a term / session belongs to an academic year.
+- a school has many curriculum.
+- a curriculum belongs to a school.
+- a curriculum has many subject clusters / groupings.
+- a subject cluster / grouping belongs to a curriculum.
+- a subject cluster / grouping has many subjects.
+- a subject belongs to a subject cluster / grouping.
+- a school has many classes.
+- a class belongs to a school.
+- a class has many streams.
+- a stream belongs to a class.
+- a class has many teachers.
+- a teacher belongs to a class.
+- parents / guardians have many students.
+- a student belongs to a parent / guardian.
+- a student belongs to a stream.
+- a stream has many students.
+
+- a school has many grading schemes.
+- a school has many exams.
+- a school has many fees structures.
+- a school has many fees.
+- a school has many fee payments.
+- a school has many ledgers.
+
 

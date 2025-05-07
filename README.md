@@ -31,20 +31,27 @@ This application structure and features was conceptualized after the huge feedba
 # Database architecture.
 ## Objects
 - Schools.
-- Teachers.
-- Students.
-- Parents / Guardians.
+
 - Academic Years.
 - Terms / Sessions.
-- Subjects.
+
 - Curriculum.
 - Clusters / Groupings.
+- Subjects.
+
 - Classes.
 - Streams.
-- Exams.
+
+- Teachers.
+
+- Parents / Guardians.
+- Students.
+
 - Grading schemes.
-- Fees.
+- Exams.
+
 - Fees Structures.
+- Fees.
 - Fee Payments.
 - Ledgers.
 

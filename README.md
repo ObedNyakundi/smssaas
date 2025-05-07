@@ -77,5 +77,144 @@ This application structure and features was conceptualized after the huge feedba
 - a school has many fees.
 - a school has many fee payments.
 - a school has many ledgers.
+- currencies
 
+## Tables
+ ### schools
+ - name
+ - description
+ - address
+ - phone
+ - email
+ - website
+ - logo
+ - banner
+ - currency
+
+ ### Academic_years
+ - school_id
+ - name
+ - description
+ - start_date
+ - end_date
+ - status
+ 
+ ### Terms / Sessions
+ - academic_year_id
+ - name
+ - description
+ - start_date
+ - end_date
+ - status
+ 
+ ### Curriculum
+ - school_id
+ - name
+ - description
+ - status
+ 
+ ### Subject_clusters / Groupings
+ - curriculum_id
+ - name
+ - description
+ - status
+ 
+ ### Subjects
+ - subject_cluster_id
+ - name
+ - description
+ 
+ ### Classes
+ - school_id
+ - name
+ - description
+ 
+ ### Streams
+ - class_id
+ - name
+ - description
+
+ ### Stream_subject_specializations
+ - stream_id
+ - subject_id
+ 
+ ### Teachers
+ - class_id
+ - name
+ - phone_number
+ - email
+ - address
+ - description
+ - subject_specialization
+ - status
+ 
+ ### Parents / Guardians
+ - student_id
+ - name
+ - phone_number
+ - email
+ - address
+ 
+ ### Students
+ - stream_id
+ - name
+ - gender
+ - date_of_birth
+ - status
+ 
+ ### Grading_schemes
+ - school_id
+ - name
+ - max_score
+ - min_score
+ - description
+ 
+ ### Exams
+ - school_id
+ - name
+ - description
+ - status
+
+ ### Exam_scores
+ - exam_id
+ - student_id
+ - subject_id
+ - score
+ - description
+ - status
+ 
+ ### Fees_structures
+ - school_id
+ - class_id
+ - term_id
+ - amount
+ - description
+ - status
+
+ > To be continued tomorrow.
+ 
+ ### Fees
+ - fee_structure_id
+ - name
+ - description
+ - status
+ 
+ ### Fee_payments
+ - fee_id
+ - name
+ - description
+ - status
+ 
+ ### Ledgers
+ - school_id
+ - name
+ - description
+ - status
+ 
+ ### Currencies
+ - name
+ - description
+ - status
+ 
+ 
 

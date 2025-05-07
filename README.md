@@ -14,11 +14,14 @@ My desire to document and invite collaboration is to make this application acces
 
 This application structure and features was conceptualized after the huge feedback I received from the School Fees Management application and the older imperative app I had posted in 2019.
 
-**Why SMS?**
+**1. Why SMS?**
 - Becauce I am interested in education and school management.
-**Why SaaS?**
+
+**2. Why SaaS?**
 - Because one volunteer to host can share with others the resources.
-**Why Laravel?**
+
+**3. Why Laravel?**
 - Because it is a powerful and flexible framework that is easy to learn and use. Also has a wide support community.
-**Why Open Source?**
+
+**4. Why Open Source?**
 - Because I believe in shared success, honesty, integrity, transparency, and the power of technology to transform our world.

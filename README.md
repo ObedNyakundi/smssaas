@@ -29,30 +29,25 @@ This application structure and features was conceptualized after the huge feedba
 # how to Install.
 
 # Database architecture.
-## Objects
+## Objects / Tables
 - Schools.
-
 - Academic Years.
 - Terms / Sessions.
-
 - Curriculum.
 - Clusters / Groupings.
 - Subjects.
-
 - Classes.
 - Streams.
-
 - Teachers.
-
 - Parents / Guardians.
 - Students.
-
 - Grading schemes.
 - Exams.
-
 - Fees Structures.
 - Fees.
 - Fee Payments.
 - Ledgers.
+
+## Relationships
 
 

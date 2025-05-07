@@ -1,7 +1,7 @@
 # School Management SaaS 
 This is a School Management System (SMS) that is built using Laravel 12.0. This concept was first created on Github in 7th May 2025 by yours truly, Obed Nyakundi Paul. And it is for the love of our children, our schools, our communities, and for the future of our country.
 ```
-**In honor of God; for the service of men.**
+In honor of God; for the service of men.
 
 ```
 ## Why SMS? And why SaaS? And why Laravel? And why Open Source?

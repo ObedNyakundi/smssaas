@@ -18,10 +18,34 @@ This application structure and features was conceptualized after the huge feedba
 - Becauce I am interested in education and school management.
 
 **2. Why SaaS?**
-- Because one volunteer to host can share with others the resources.
+- Because if one volunteers to host, he/she can share with others the resources or sale at a cheaper price.
 
 **3. Why Laravel?**
 - Because it is a powerful and flexible framework that is easy to learn and use. Also has a wide support community.
 
 **4. Why Open Source?**
 - Because I believe in shared success, honesty, integrity, transparency, and the power of technology to transform our world.
+
+# how to Install.
+
+# Database architecture.
+## Objects
+- Schools.
+- Teachers.
+- Students.
+- Parents / Guardians.
+- Academic Years.
+- Terms / Sessions.
+- Subjects.
+- Curriculum.
+- Clusters / Groupings.
+- Classes.
+- Streams.
+- Exams.
+- Grading schemes.
+- Fees.
+- Fees Structures.
+- Fee Payments.
+- Ledgers.
+
+

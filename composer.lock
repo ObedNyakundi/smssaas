@@ -2038,6 +2038,18 @@
         },
         {
             "name": "laravel/framework",
+
+            "version": "v12.13.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/framework.git",
+                "reference": "52b588bcd8efc6d01bc1493d2d67848f8065f269"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/52b588bcd8efc6d01bc1493d2d67848f8065f269",
+                "reference": "52b588bcd8efc6d01bc1493d2d67848f8065f269",
+
             "version": "v12.34.0",
             "source": {
                 "type": "git",
@@ -2048,6 +2060,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/framework/zipball/f9ec5a5d88bc8c468f17b59f88e05c8ac3c8d687",
                 "reference": "f9ec5a5d88bc8c468f17b59f88e05c8ac3c8d687",
+
                 "shasum": ""
             },
             "require": {
@@ -2253,7 +2266,11 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
+
+            "time": "2025-05-07T17:29:01+00:00"
+
             "time": "2025-10-14T13:58:31+00:00"
+
         },
         {
             "name": "laravel/prompts",
@@ -3799,6 +3816,18 @@
         },
         {
             "name": "nunomaduro/termwind",
+
+            "version": "v2.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nunomaduro/termwind.git",
+                "reference": "dfa08f390e509967a15c22493dc0bac5733d9123"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nunomaduro/termwind/zipball/dfa08f390e509967a15c22493dc0bac5733d9123",
+                "reference": "dfa08f390e509967a15c22493dc0bac5733d9123",
+
             "version": "v2.3.2",
             "source": {
                 "type": "git",
@@ -3809,11 +3838,24 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/nunomaduro/termwind/zipball/eb61920a53057a7debd718a5b89c2178032b52c0",
                 "reference": "eb61920a53057a7debd718a5b89c2178032b52c0",
+
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
                 "php": "^8.2",
+
+                "symfony/console": "^7.2.6"
+            },
+            "require-dev": {
+                "illuminate/console": "^11.44.7",
+                "laravel/pint": "^1.22.0",
+                "mockery/mockery": "^1.6.12",
+                "pestphp/pest": "^2.36.0 || ^3.8.2",
+                "phpstan/phpstan": "^1.12.25",
+                "phpstan/phpstan-strict-rules": "^1.6.2",
+                "symfony/var-dumper": "^7.2.6",
+
                 "symfony/console": "^7.3.4"
             },
             "require-dev": {
@@ -3824,6 +3866,7 @@
                 "phpstan/phpstan": "^1.12.32",
                 "phpstan/phpstan-strict-rules": "^1.6.2",
                 "symfony/var-dumper": "^7.3.4",
+
                 "thecodingmachine/phpstan-strict-rules": "^1.0.0"
             },
             "type": "library",
@@ -3866,7 +3909,11 @@
             ],
             "support": {
                 "issues": "https://github.com/nunomaduro/termwind/issues",
+
+                "source": "https://github.com/nunomaduro/termwind/tree/v2.3.1"
+
                 "source": "https://github.com/nunomaduro/termwind/tree/v2.3.2"
+
             },
             "funding": [
                 {
@@ -3882,6 +3929,22 @@
                     "type": "github"
                 }
             ],
+
+            "time": "2025-05-08T08:14:37+00:00"
+        },
+        {
+            "name": "openspout/openspout",
+            "version": "v4.28.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/openspout/openspout.git",
+                "reference": "ab05a09fe6fce57c90338f83280648a9786ce36b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/openspout/openspout/zipball/ab05a09fe6fce57c90338f83280648a9786ce36b",
+                "reference": "ab05a09fe6fce57c90338f83280648a9786ce36b",
+
             "time": "2025-10-18T11:10:27+00:00"
         },
         {
@@ -3896,6 +3959,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/openspout/openspout/zipball/41f045c1f632e1474e15d4c7bc3abcb4a153563d",
                 "reference": "41f045c1f632e1474e15d4c7bc3abcb4a153563d",
+
                 "shasum": ""
             },
             "require": {
@@ -3905,6 +3969,19 @@
                 "ext-libxml": "*",
                 "ext-xmlreader": "*",
                 "ext-zip": "*",
+
+                "php": "~8.2.0 || ~8.3.0 || ~8.4.0"
+            },
+            "require-dev": {
+                "ext-zlib": "*",
+                "friendsofphp/php-cs-fixer": "^3.68.3",
+                "infection/infection": "^0.29.10",
+                "phpbench/phpbench": "^1.4.0",
+                "phpstan/phpstan": "^2.1.2",
+                "phpstan/phpstan-phpunit": "^2.0.4",
+                "phpstan/phpstan-strict-rules": "^2",
+                "phpunit/phpunit": "^11.5.4"
+
                 "php": "~8.3.0 || ~8.4.0 || ~8.5.0"
             },
             "require-dev": {
@@ -3916,6 +3993,7 @@
                 "phpstan/phpstan-phpunit": "^2.0.7",
                 "phpstan/phpstan-strict-rules": "^2.0.6",
                 "phpunit/phpunit": "^12.3.7"
+
             },
             "suggest": {
                 "ext-iconv": "To handle non UTF-8 CSV files (if \"php-mbstring\" is not already installed or is too limited)",
@@ -3963,7 +4041,11 @@
             ],
             "support": {
                 "issues": "https://github.com/openspout/openspout/issues",
+
+                "source": "https://github.com/openspout/openspout/tree/v4.28.5"
+
                 "source": "https://github.com/openspout/openspout/tree/v4.32.0"
+
             },
             "funding": [
                 {
@@ -3975,6 +4057,9 @@
                     "type": "github"
                 }
             ],
+
+            "time": "2025-01-30T13:51:11+00:00"
+
             "time": "2025-09-03T16:03:54+00:00"
         },
         {
@@ -4045,6 +4130,7 @@
                 "source": "https://github.com/paragonie/constant_time_encoding"
             },
             "time": "2025-09-24T15:06:41+00:00"
+
         },
         {
             "name": "phpoption/phpoption",
@@ -8429,6 +8515,18 @@
         },
         {
             "name": "laravel/pint",
+
+            "version": "v1.22.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/pint.git",
+                "reference": "941d1927c5ca420c22710e98420287169c7bcaf7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/pint/zipball/941d1927c5ca420c22710e98420287169c7bcaf7",
+                "reference": "941d1927c5ca420c22710e98420287169c7bcaf7",
+
             "version": "v1.25.1",
             "source": {
                 "type": "git",
@@ -8439,6 +8537,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/pint/zipball/5016e263f95d97670d71b9a987bd8996ade6d8d9",
                 "reference": "5016e263f95d97670d71b9a987bd8996ade6d8d9",
+
                 "shasum": ""
             },
             "require": {
@@ -8449,10 +8548,17 @@
                 "php": "^8.2.0"
             },
             "require-dev": {
+
+                "friendsofphp/php-cs-fixer": "^3.75.0",
+                "illuminate/view": "^11.44.7",
+                "larastan/larastan": "^3.4.0",
+                "laravel-zero/framework": "^11.36.1",
+
                 "friendsofphp/php-cs-fixer": "^3.87.2",
                 "illuminate/view": "^11.46.0",
                 "larastan/larastan": "^3.7.1",
                 "laravel-zero/framework": "^11.45.0",
+
                 "mockery/mockery": "^1.6.12",
                 "nunomaduro/termwind": "^2.3.1",
                 "pestphp/pest": "^2.36.0"
@@ -8491,6 +8597,7 @@
                 "issues": "https://github.com/laravel/pint/issues",
                 "source": "https://github.com/laravel/pint"
             },
+            "time": "2025-05-08T08:38:12+00:00"
             "time": "2025-09-19T02:57:12+00:00"
         },
         {
@@ -10527,12 +10634,12 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": "^8.2"
     },
-    "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
 }
